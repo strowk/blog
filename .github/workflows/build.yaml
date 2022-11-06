@@ -1,5 +1,5 @@
-name: publish-to-github-pages
-run-name: Publishing Qwik app to Github Pages
+name: building-qwik-app
+run-name: Building Qwik app
 on:
   push:
     branches: [main]
