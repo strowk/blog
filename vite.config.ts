@@ -5,16 +5,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig(() => {
   return {
-    plugins: [
-      qwikCity({
-        mdxPlugins: {
-          rehypeSyntaxHighlight: true,
-          remarkGfm: true,
-          rehypeAutolinkHeadings: true,
-        },
-      }),
-      qwikVite(),
-      tsconfigPaths(),
-    ],
+    ssr: { target: "webworker", noExternal: true },
+    plugins: [qwikCity(), qwikVite(), tsconfigPaths()],
   };
 });

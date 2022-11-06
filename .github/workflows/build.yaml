@@ -1,0 +1,14 @@
+name: publish-to-github-pages
+run-name: Publishing Qwik app to Github Pages
+on:
+  push:
+    branches: [main]
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm ci
+        shell: bash
+      - run: npm run build
+        shell: bash
