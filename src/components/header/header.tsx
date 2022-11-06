@@ -10,7 +10,7 @@ export default component$(() => {
   return (
     <header>
       <a class="logo" href="/">
-        <img src="/images/str4io.png" />
+        <img src="/assets/str4io.png" />
       </a>
       <nav>
         {/* <a href="/docs" class={{ active: pathname.startsWith("/docs") }}>
