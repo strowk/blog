@@ -14,7 +14,7 @@
 }
 
  /* for optimal readability, see here: https://baymard.com/blog/line-length-readability */
-@media (min-width: 80ch) {
+@media (min-width: 100ch) {
   :root {
     --max-width: 75ch;
   }
@@ -30,12 +30,14 @@ body {
   max-width: 100vw;
   background: var(--sl-color-neutral-50);
   color: var(--sl-color-neutral-800);
+  overflow-x: clip;
 }
 
 main {
   padding: 10px 20px;
   max-width: var(--max-width);
   margin: 0 auto;
+  overflow: ;
 }
 
 a {
