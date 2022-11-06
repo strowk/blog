@@ -12,4 +12,4 @@ See more details in [my online CV](https://cv.str4.io)
 
 ## Contacts
 
- - [Linkedin](www.linkedin.com/in/sultanaev-timur)
+ - [Linkedin](https://www.linkedin.com/in/sultanaev-timur)
