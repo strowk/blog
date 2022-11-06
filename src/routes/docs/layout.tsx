@@ -1,6 +1,5 @@
 import { component$, Slot, useStyles$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import Menu from "~/components/menu/menu";
 import OnThisPage from "~/components/on-this-page/on-this-page";
 import styles from "./docs.css";
 
