@@ -20,6 +20,10 @@ export default component$(() => {
       <head class="sl-theme-dark">
         <meta charSet="utf-8" />
         <RouterHead />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/themes/prism-dark.min.css"
+        ></link>
         <script>
           document.documentElement.classList.add('sl-theme-dark');
         </script>
