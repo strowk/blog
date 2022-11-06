@@ -59,3 +59,7 @@ code {
   font-size: 0.9em;
   /* border-bottom: 2px solid #bfbfbf; */
 }
+
+code[class*="language-"] {
+  padding: 0; /* removes padding from code blocks where language is specified */
+}
