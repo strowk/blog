@@ -1,8 +1,7 @@
-import { component$, useClientEffect$ } from "@builder.io/qwik";
+import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
-  
   return (
     <>
       <h1>Hey!</h1>
@@ -23,6 +22,7 @@ export default component$(() => {
           </li>
         </ul>
       </ul>
+      <a href="/blog">Blog</a>
     </>
   );
 });
