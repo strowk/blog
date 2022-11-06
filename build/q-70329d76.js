@@ -1,0 +1,1 @@
+import{m as o,u as e,_ as a}from"./q-ed2a709d.js";const r=o(e(()=>a(()=>import("./q-3f18c01b.js"),["build/q-3f18c01b.js","build/q-7bd275bc.css","build/q-ed2a709d.js","build/q-5f0c4fcf.css"]),"s_vP5lWfKhuIc")),u=({head:t})=>({title:`${t.title} - Documentation`});export{r as default,u as head};
