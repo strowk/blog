@@ -1,10 +1,20 @@
-import { defineConfig } from 'vite';
-import { qwikVite } from '@builder.io/qwik/optimizer';
-import { qwikCity } from '@builder.io/qwik-city/vite';
-import tsconfigPaths from 'vite-tsconfig-paths';
+import { defineConfig } from "vite";
+import { qwikVite } from "@builder.io/qwik/optimizer";
+import { qwikCity } from "@builder.io/qwik-city/vite";
+import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig(() => {
   return {
-    plugins: [qwikCity(), qwikVite(), tsconfigPaths()],
+    plugins: [
+      qwikCity({
+        mdxPlugins: {
+          rehypeSyntaxHighlight: true,
+          remarkGfm: true,
+          rehypeAutolinkHeadings: true,
+        },
+      }),
+      qwikVite(),
+      tsconfigPaths(),
+    ],
   };
 });
