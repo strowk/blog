@@ -13,9 +13,10 @@
   --theme-text: #181818;
 }
 
-@media (min-width: 50em) {
+ /* for optimal readability, see here: https://baymard.com/blog/line-length-readability */
+@media (min-width: 80ch) {
   :root {
-    --max-width: 46em;
+    --max-width: 75ch;
   }
 }
 
@@ -24,7 +25,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: var(--font-body);
-  font-size: var(--sl-font-size-medium);
+  font-size: var(--sl-font-size-large);
   line-height: 1.5;
   max-width: 100vw;
   background: var(--sl-color-neutral-50);
@@ -33,7 +34,7 @@ body {
 
 main {
   padding: 10px 20px;
-  max-width: 960px;
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 
@@ -60,7 +61,12 @@ code {
   border-bottom: 2px solid #bfbfbf;
 }
 
-code[class*="language-"] {
-  padding: 0; /* removes padding from code blocks where language is specified */
+pre > code {
+  padding: 0; /* removes padding from code blocks */
   border-bottom: 0;
+}
+
+pre {
+  overflow-x: scroll;
+  font-size: var(--sl-font-size-medium);
 }
