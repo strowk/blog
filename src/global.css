@@ -70,3 +70,7 @@ pre {
   overflow-x: scroll;
   font-size: var(--sl-font-size-medium);
 }
+
+h1 {
+  width: 100vw;
+}
