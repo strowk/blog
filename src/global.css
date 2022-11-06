@@ -57,9 +57,10 @@ code {
   padding: 2px 4px;
   border-radius: 3px;
   font-size: 0.9em;
-  /* border-bottom: 2px solid #bfbfbf; */
+  border-bottom: 2px solid #bfbfbf;
 }
 
 code[class*="language-"] {
   padding: 0; /* removes padding from code blocks where language is specified */
+  border-bottom: 0;
 }
