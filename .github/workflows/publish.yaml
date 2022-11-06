@@ -13,7 +13,7 @@ jobs:
       - run: npm run build
         shell: bash
       - run: touch dist/.nojekyll # this to make Github not treat this as Jekyll
-      - run: echo 'cv.str4.io' > ./dist/CNAME
+      - run: echo 'str4.io' > ./dist/CNAME
       - name: Deploy to Github Pages
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
