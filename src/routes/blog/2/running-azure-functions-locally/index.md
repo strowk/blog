@@ -6,7 +6,7 @@ When running Azure Functions on local machine, usually there are at least two pa
 
 The interesting part about this choice is that even if you decide to use VSCode extension,
 you would still have to install and configure CLI tool `azure-functions-core-tools`
-(installation instructions could be found [here](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash#install-the-azure-functions-core-tools)).
+(installation instructions could be found [here](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash#install-the-azure-functions-core-tools)),
 which is not bundled with the extension. 
 The CLI tool can be used just as well directly without introducing additional unnecessary
 complexity.
