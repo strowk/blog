@@ -18,21 +18,6 @@ export default component$(() => {
         <li>
           <a href="https://cv.str4.io">CV</a>
         </li>
-        {/* <li>
-          <a href="/docs">Docs</a>
-        </li>
-        <li>
-          <a href="https://qwik.builder.io/">Qwik</a>
-        </li>
-        <li>
-          <a href="https://twitter.com/QwikDev">Twitter</a>
-        </li>
-        <li>
-          <a href="https://github.com/BuilderIO/qwik">Github</a>
-        </li>
-        <li>
-          <a href="https://qwik.builder.io/chat">Chat</a>
-        </li> */}
       </ul>
       <div style="background: white; padding: 5px; height: 170px; width: 170px; margin: auto; margin-top: 20px">
         <sl-qr-code
