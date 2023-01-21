@@ -16,7 +16,7 @@ raw and buggy and it appears that there is not enough attention paid to fixing e
 most critical bugs. To the point of running Azure Function locally, for example - that was
 the first command I tried and it failed right away with error "Unexpected status code: 400".
 
-The issue in Github that was tied to the bug was created at Nov 17 2021 and took more than
+The issue in Github tied to that bug, was created at Nov 17 2021 and took more than
 a year to fix. At the time when I already needed to run the function locally - extension
 did not, unfortunately, work and mostly was rendered useless for me, so at the time I was
 forced to use another way of doing that - by calling admin API of the tools.
