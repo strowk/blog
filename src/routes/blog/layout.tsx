@@ -13,10 +13,6 @@ export default component$(() => {
       {location.pathname !== "/blog" && (
         <>
           <sl-divider style="--spacing: 2rem;"></sl-divider>
-          <div class="giscus">
-            {/* Using this element for giscus to embed into, otherwise
-                it is impossible to hide it (remove from DOM) after navigation */}
-          </div>
           <script
             src="https://giscus.app/client.js"
             data-repo="strowk/blog"
