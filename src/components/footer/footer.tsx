@@ -6,6 +6,7 @@ export default component$(() => {
 
   return (
     <footer>
+      <sl-divider></sl-divider>
       <div>
         <a href="https://qwik.builder.io/" target="_blank" class="builder">
           Made with Qwik

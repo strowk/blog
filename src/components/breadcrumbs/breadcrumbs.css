@@ -1,6 +1,6 @@
 nav.breadcrumbs {
   padding: 5px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--sl-color-neutral-500);
 }
 
 nav.breadcrumbs > span {
