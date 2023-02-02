@@ -259,5 +259,5 @@ so that renderer resized right away as well as on resize event.
 
 You can see the result in the gif below:
 
-![Three.JS in VS Code](./three_for_blog.gif)
+![Three.JS in VS Code](/assets/blog/3/three_for_blog.gif)
 
