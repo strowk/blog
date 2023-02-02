@@ -69,7 +69,7 @@ pre > code {
 }
 
 pre {
-  overflow-x: scroll;
+  overflow-x: auto;
   font-size: var(--sl-font-size-medium);
 }
 
