@@ -44,16 +44,20 @@ Put it in `.github/workflows/publish.yaml`
 
 Now you can see `npm run deploy` is called, you gonna have to add this to package.json in "scripts" f.e. like this:
 `"deploy": "gh-pages -d dist"`
-Note here `dist` folder is used, same as in workflow above, you might need to change this to actual folder 
+Note here `dist` folder is used, same as in workflow above, you might need to change this to actual folder
 where your built SPA would be placed by `npm run build` or analogue. F.e. for CRA, it would be `build`.
 
 Once you have those ready, commit this and push to main branch and wait till Actions run and check out
 results. The build should appear in gh-pages branch.
 
-If you want custom domain and left CNAME in the file above, you are gonna need to 
-add CNAME entry on DNS wherever your domain name is bought from. 
+If you want custom domain and left CNAME in the file above, you are gonna need to
+add CNAME entry on DNS wherever your domain name is bought from.
 You would need to add CNAME entry with text `<name>.github.io`, where
 `<name>` is either your username for Github or organisation name.
 
 Once everything is configured, you can go to Settings and turn on this in Pages.
 
+Additionally make sure that in "Workflow permissions" under Settings -> Actions -> General you have
+"Read and write permissions" checked, otherwise you would get about permissions.
+
+For organisation you would need to make this configuration in organisation settings, not on repository level.
