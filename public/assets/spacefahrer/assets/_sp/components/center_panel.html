@@ -1,0 +1,15 @@
+<template>
+  <property name="title"></property>
+  <node
+    flex_direction="column"
+    row_gap="20px"
+    align_items="center"
+    background="rgb(0.2,0.2,0.2)"
+    padding="20px"
+    border="10px"
+    border_color="rgb(0.1,0.1,0.1)"
+  >
+    <text font_size="55" font_color="#FFF"> {title} </text>
+    <slot />
+  </node>
+</template>

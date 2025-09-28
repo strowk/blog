@@ -1,0 +1,36 @@
+<template>
+  <node
+    align_items="center"
+    justify_content="center"
+    height="100%"
+    width="100%"
+  >
+    <center_panel title="Controls Settings">
+      <control_config
+        id="move_up"
+        name="Move Up"
+        key="{move_up_key}"
+        on_change="change_move_up_key"
+      ></control_config>
+      <control_config
+        id="move_down"
+        name="Move Down"
+        key="{move_down_key}"
+        on_change="change_move_down_key"
+      ></control_config>
+      <control_config
+        id="move_left"
+        name="Move Left"
+        key="{move_left_key}"
+        on_change="change_move_left_key"
+      ></control_config>
+      <control_config
+        id="move_right"
+        name="Move Right"
+        key="{move_right_key}"
+        on_change="change_move_right_key"
+      ></control_config>
+      <menu_button text="Back" action="back"></menu_button>
+    </center_panel>
+  </node>
+</template>

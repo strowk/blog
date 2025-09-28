@@ -1,0 +1,22 @@
+<template>
+  <property name="id"></property>
+  <property name="name"></property>
+  <property name="key"></property>
+  <property name="on_change"></property>
+
+  <node flex_direction="row" align_items="center" row_gap="5px">
+    <text font_size="33" font_color="#FFF"> {name} </text>
+    <button
+      width="300px"
+      height="65px"
+      margin="20px"
+      align_items="center"
+      justify_content="center"
+      background="rgb(0.015,0.015,0.015)"
+      hover:background="rgb(0.1,0.1,0.1)"
+      on_press="{on_change}"
+    >
+      <text font_size="33" font_color="#FFF"> {key} </text>
+    </button>
+  </node>
+</template>
